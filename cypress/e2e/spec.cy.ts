@@ -1,5 +1,7 @@
-describe('empty spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
-  })
-})
+describe('Homepage', () => {
+  it('must be accessible', () => {
+    cy.visit('/');
+    cy.injectAxe();
+    cy.checkA11y();
+  });
+});

@@ -6,7 +6,9 @@ specifiers:
   '@types/react': ^18.0.25
   '@types/react-dom': ^18.0.9
   '@vitejs/plugin-react': ^2.2.0
+  axe-core: ^4.5.2
   cypress: ^11.1.0
+  cypress-axe: ^1.0.0
   react: ^18.2.0
   react-dom: ^18.2.0
   typescript: ^4.9.3
@@ -22,7 +24,9 @@ devDependencies:
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
   '@vitejs/plugin-react': 2.2.0_vite@3.2.4
+  axe-core: 4.5.2
   cypress: 11.1.0
+  cypress-axe: 1.0.0_upjjqfk4wox3yjwbj7giff7jo4
   typescript: 4.9.3
   vite: 3.2.4_@types+node@18.11.9
 
@@ -732,6 +736,17 @@ packages:
 
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
+    dev: true
+
+  /cypress-axe/1.0.0_upjjqfk4wox3yjwbj7giff7jo4:
+    resolution: {integrity: sha512-QBlNMAd5eZoyhG8RGGR/pLtpHGkvgWXm2tkP68scJ+AjYiNNOlJihxoEwH93RT+rWOLrefw4iWwEx8kpEcrvJA==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      axe-core: ^3 || ^4
+      cypress: ^10
+    dependencies:
+      axe-core: 4.5.2
+      cypress: 11.1.0
     dev: true
 
   /cypress/11.1.0:
