@@ -53,3 +53,13 @@ It points out some basics (missing alt tag etc) inline while you code. It's not 
 * [@axe-core/react](https://github.com/dequelabs/axe-core-npm/blob/develop/packages/react/README.md)
 
 After updating a component in development the results (a11y issues) are shown in the devtools console. 
+
+## Testing
+
+1. [Cypress](https://github.com/cypress-io/cypress)
+
+* [cypress-axe](https://github.com/component-driven/cypress-axe) - Test accessibility with axe-core in Cypress
+
+Test for a11y violations within a Cypress e2e test suite.
+
+
