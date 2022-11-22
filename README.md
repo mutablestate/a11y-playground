@@ -48,3 +48,8 @@ To get a baseline of issues each extension finds I installed each one and run a 
 
 It points out some basics (missing alt tag etc) inline while you code. It's not comprehensive enough to replace **axe DevTools** but the DX makes install worthwhile. 
 
+## React Library
+
+* [@axe-core/react](https://github.com/dequelabs/axe-core-npm/blob/develop/packages/react/README.md)
+
+After updating a component in development the results (a11y issues) are shown in the devtools console. 
